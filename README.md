@@ -84,4 +84,4 @@ public class Mapped_Stations
         DbSet<Station> stations { get; set; }
     }
 ```
-## Please Read LISENCE
+## Please Read LICENSE
