@@ -24,7 +24,7 @@ public class Station
         [StringLength(100)]
         public string Province { get; set; }
 
-        //Add This Lists two create many to many
+        //Add This two Lists create many to many
         public List<Mapped_Stations> Origins { get; set; }
         public List<Mapped_Stations> Destinations { get; set; }
     }
@@ -45,7 +45,7 @@ public class Mapped_Stations
     }
 ```
 
-## Add folder with name mapping and create mapping class
+## Add a folder with name mapping and create mapping class
 ### use IEntityTypeConfiguration interface
 ```
  public class Mapped_SatationsMap : IEntityTypeConfiguration<Mapped_Stations>
